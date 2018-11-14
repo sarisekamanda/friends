@@ -35,9 +35,13 @@ class FriendsRecyclerAdapter internal constructor(context: Context) :
     }
 
     //Lista temporáiria com os dados a serem trabalhados
-    private fun lista(): List<String>{
+   /* private fun lista(): List<String>{
         return listOf("Arise",
             "Allan",
             "Prof")
     }
+    */
+
+    private fun setFriendsList (friendsList: List<Friends>)
+
 }
